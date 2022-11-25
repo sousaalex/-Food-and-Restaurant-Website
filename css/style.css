@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
-body{
+/*body{
   background: url();
-}
+}*/
 
 
 
@@ -124,8 +124,8 @@ section {
 .header .navbar a:hover {
   color: #27ae60;
 }
-
-.header .icons div {
+/*=========================cor dos botões de redes sociais============================*/
+.header .icons-container div {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.5rem;
@@ -138,10 +138,65 @@ section {
   text-align: center;
 }
 
-.header .icons div:hover {
-  color: #fff;
-  background: #27ae60;
+/*teste icons*/
+.header .icon1 div {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background: #f7f7f7;
+  color: #130f40;
+  border-radius: .5rem;
+  margin-left: .3rem;
+  cursor: pointer;
+  text-align: center;
 }
+
+.header .icon1 div:hover {
+  color: #fff;
+  background: #0b4ddb;
+}
+
+.header .icon2 div {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background: #f7f7f7;
+  color: #130f40;
+  border-radius: .5rem;
+  margin-left: .3rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header .icon2 div:hover {
+  color: #fff;
+  background: #dd2088;
+}
+
+.header .icon3 div {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 2rem;
+  background: #f7f7f7;
+  color: #130f40;
+  border-radius: .5rem;
+  margin-left: .3rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.header .icon3 div:hover {
+  color: #fff;
+  background: #0eac00;
+}
+
+
+
+
+
 
 #menu-btn {
   display: none;
